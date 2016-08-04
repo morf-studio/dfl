@@ -1388,10 +1388,11 @@ strong {
  * Basic styling
  */
 body {
-  font-family: "canada-type-gibson", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "courier-new", courier, typewriter, monospace;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.9);
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased; }
 
@@ -1518,16 +1519,18 @@ button {
 
 a {
   transition: all .2s;
+  color: #000;
   text-decoration: none;
   font-weight: 600;
   border-bottom-style: solid;
   border-bottom-width: 2px; }
 
+a:link,
+a:visited {
+  color: #000; }
+
 .link {
   text-decoration: none; }
-
-a:hover {
-  box-shadow: 0 2px 0 0; }
 
 a:active {
   transition: all .3s; }
@@ -2309,11 +2312,8 @@ td {
   margin: 0 2rem; }
 
 body {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0, rgba(255, 255, 255, 0) 1px);
-  background-repeat: repeat-y;
   background-size: 100% 1.5em;
-  background-color: #FFF;
-  color: rgba(0, 0, 0, 0.7); }
+  background-color: #FFF; }
 
 span.kern {
   letter-spacing: .02em; }
