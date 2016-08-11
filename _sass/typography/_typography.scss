@@ -102,10 +102,11 @@ $space-after:  1.5rem;
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    font-family: "courier-new", courier, typewriter, monospace;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: normal;
+    color:$black70;
     //color: $text-color;
     //background-color: $background-color;
     -webkit-text-size-adjust: 100%;
