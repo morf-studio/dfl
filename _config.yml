@@ -1,7 +1,7 @@
 # Site settings
-title:
-email:
-author:
+title: DFL Stitchworks
+email: adamhb14@gmail.com
+author: Adam Balfour
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
