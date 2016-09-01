@@ -5,7 +5,7 @@
     <meta name="description" content="{{site.description}}">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <link rel="shortcut icon" id="favicon" href="/favicon.ico">
-    <link rel="canonical" href="{{site.baseurl}}">
+    <link rel="canonical" href="{{site.github.url}}">
 
     <meta name="google-site-verification" content="-jnbTnOjR6GrVmGLpC7wLYY4dscllknUySo408y-kwU" />
 
@@ -16,10 +16,10 @@
     <meta property="og:description" content="{{site.description}}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <meta property="og:site_name" content="{{site.title}}">
-    <meta property="og:image" content="{{site.baseurl}}/img/cover.jpg">
+    <meta property="og:image" content="{{site.github.url}}/img/cover.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="{{site.baseurl}}">
+    <meta name="twitter:site" content="{{site.github.url}}">
     <meta name="twitter:creator" content="@{{site.twitter-user}}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{site.description}}">
