@@ -19,6 +19,7 @@ $black: #000;
 .black-8{color:rgba(0,0,0,0.8);}
 .black-9{color:rgba(0,0,0,0.9);}
 .bg-black{background-color:$black;}
+
 $black10:rgba(0,0,0,0.1);
 $black20:rgba(0,0,0,0.2);
 $black30:rgba(0,0,0,0.3);
@@ -29,17 +30,22 @@ $black70:rgba(0,0,0,0.7);
 $black80:rgba(0,0,0,0.8);
 $black90:rgba(0,0,0,0.9);
 
+.bg-black-1{background-color:$black10;}
+.bg-black-2{background-color:$black20;}
+.bg-black-8{background-color:$black80;}
+.bg-black-9{background-color:$black90;}
+
 $white: #FFF;
 .white  {color:$white;}
-.white-1{color:rgba(255,255,255,0.1);}
-.white-2{color:rgba(255,255,255,0.2);}
-.white-3{color:rgba(255,255,255,0.3);}
-.white-4{color:rgba(255,255,255,0.4);}
-.white-5{color:rgba(255,255,255,0.5);}
-.white-6{color:rgba(255,255,255,0.6);}
-.white-7{color:rgba(255,255,255,0.7);}
-.white-8{color:rgba(255,255,255,0.8);}
-.white-9{color:rgba(255,255,255,0.9);}
+.white-1{color:rgba(255,255,255,0.1)!important;}
+.white-2{color:rgba(255,255,255,0.2)!important;}
+.white-3{color:rgba(255,255,255,0.3)!important;}
+.white-4{color:rgba(255,255,255,0.4)!important;}
+.white-5{color:rgba(255,255,255,0.5)!important;}
+.white-6{color:rgba(255,255,255,0.6)!important;}
+.white-7{color:rgba(255,255,255,0.7)!important;}
+.white-8{color:rgba(255,255,255,0.8)!important;}
+.white-9{color:rgba(255,255,255,0.9)!important;}
 .bg-white{background-color:$white;}
 $white10:rgba(255,255,255,0.1);
 $white20:rgba(255,255,255,0.2);
