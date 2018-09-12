@@ -1,11 +1,8 @@
-#PopsLife
-
 ##Authors
 - Alex Bloom
-- Spencer Harrison
 
 ##Design Objectives
+Few.
 
 ##Technology Objectives
-
-##Reminders
+None.
